@@ -1,9 +1,9 @@
 import argparse
-import random
 import string
 from typing import List
 
 from colorama import Fore
+from Crypto.Random import random
 
 CHAR_MAPPINGS = {
     "digits": string.digits,
